@@ -1,0 +1,5 @@
+<esi:include src="https://wasniew.github.io/menu.html" />
+    <h1>{{ title }}</h1>
+    <p><img src="{{ cover }}" alt="" /></p>
+<esi:include src="{{ inventoryService }}" />
+<esi:include src="https://kwasniew.github.io/footer.html" />
